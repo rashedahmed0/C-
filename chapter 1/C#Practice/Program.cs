@@ -1,5 +1,6 @@
 ﻿using C_Practice.Area;
 using C_Practice.BoxingUnboxing;
+using C_Practice.ConditionStateMnet;
 using C_Practice.DataType;
 using C_Practice.InterestRate;
 using C_Practice.Operator;
@@ -12,8 +13,17 @@ namespace C_Practice
     {
         static void Main(string[] args)
         {
-            IncrementOperator obj = new IncrementOperator();
-            obj.Incremnet();
+            SwitchCaseConditioncs obj = new SwitchCaseConditioncs();
+            obj.SwitchCondition();
+
+            //OddEvenCheck obj = new OddEvenCheck();
+            //obj.Accept();
+            //obj.CheckOddEvenNumber();
+
+
+
+            //IncrementOperator obj = new IncrementOperator();
+            //obj.Incremnet();
 
 
             //TynaryOperatorcs obj = new TynaryOperatorcs();
