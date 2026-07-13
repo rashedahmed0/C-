@@ -3,6 +3,7 @@ using C_Practice.BoxingUnboxing;
 using C_Practice.ConditionStateMnet;
 using C_Practice.DataType;
 using C_Practice.InterestRate;
+using C_Practice.LoopPracice;
 using C_Practice.Operator;
 using C_Practice.Practice;
 using C_Practice.ProblemSolving;
@@ -13,8 +14,21 @@ namespace C_Practice
     {
         static void Main(string[] args)
         {
-            SwitchCaseConditioncs obj = new SwitchCaseConditioncs();
-            obj.SwitchCondition();
+            Table9th obj = new Table9th();
+            obj.Accept();
+            obj.Table9();
+
+
+
+
+            //LoopBasic obj = new LoopBasic();
+            //obj.LPractice();
+
+
+
+
+            //SwitchCaseConditioncs obj = new SwitchCaseConditioncs();
+            //obj.SwitchCondition();
 
             //OddEvenCheck obj = new OddEvenCheck();
             //obj.Accept();
