@@ -14,9 +14,20 @@ namespace C_Practice
     {
         static void Main(string[] args)
         {
-            Table9th obj = new Table9th();
-            obj.Accept();
-            obj.Table9();
+
+            NestedLoop obj = new NestedLoop();
+            obj.NestedLoopExample();
+
+
+            //Factorial obj = new Factorial();
+            //obj.Accept();
+            //obj.FactorialExample();
+
+
+
+            //Table9th obj = new Table9th();
+            //obj.Accept();
+            //obj.Table9();
 
 
 
@@ -110,5 +121,5 @@ namespace C_Practice
             //obj.fun1();
             //InstanceAndStatic.fun();
         }
-    }
+}
 }
