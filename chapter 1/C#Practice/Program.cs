@@ -14,9 +14,11 @@ namespace C_Practice
     {
         static void Main(string[] args)
         {
-
-            NestedLoop obj = new NestedLoop();
-            obj.NestedLoopExample();
+            BreakContinue obj = new  BreakContinue();
+            obj.BreakExample();
+            obj.ContinueExample();
+            //NestedLoop obj = new NestedLoop();
+            //obj.NestedLoopExample();
 
 
             //Factorial obj = new Factorial();
